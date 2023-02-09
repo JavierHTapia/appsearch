@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppSearch</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h3>Elegir tema</h3>
+        <form id="theme-options">
+          <div>
+            <input checked type="radio" id="auto" name="theme" value="auto">
+            <label for="auto">Principal</label>
+          </div>
+          <div>
+            <input type="radio" id="dark" name="theme" value="dark">
+            <label for="dark">Oscuro</label>
+          </div>
+          <div>
+            <input type="radio" id="red" name="theme" value="red">
+            <label for="red">Rojo</label>
+          </div>
+        </form>
+      </header> 
+    <div class="container">
+        <form action="https://google.com/search" target="_blank" class="search" id="search-bar">
+            <input type="search" placeholder="Buscar en Google" name="q" class="search__input">
+            <div class="search__button" id="search-button">
+                <i class='bx bx-search search__icon'></i>
+                <i class='bx bx-x search__close'></i>
+            </div>
+        </form>
+    </div>
+    
+
+    <script src="js/script.js"></script>   
+</body>
+</html>
